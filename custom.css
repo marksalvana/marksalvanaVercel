@@ -1,0 +1,120 @@
+
+	
+#particles-js {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 20;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url("lib/img/BG-blue.jpg");
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Fade-in from black Entrance Animation for the whole website */
+.fade-in {
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+}
+
+.stacks li {
+    font-size: smaller;
+    background-color: rgba(137, 43, 226, 0.169);
+    padding: 3px 10px 3px 10px;
+    border-radius: 15px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* active link */
+.active,
+nav a:hover {
+    color:white;
+	transition: 500ms;
+}
+
+.xactive {
+	color: white;
+	transition: 500ms;
+	border-left: 2px solid white;
+    background-color: rgba(0, 0, 0, 0.207);
+}
+
+#xmenu a:hover {
+	color: white;
+	transition: 100ms;
+    background-color: rgba(0, 0, 0, 0.207);
+}
+
+h6 {
+    font-size: .7rem;
+}
+
+/* Scrollbar styling  */
+
+ #custom-scroll::-webkit-scrollbar-track
+ {
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+     border-radius: 10px;
+     background-color: #3a002c;
+ }
+ 
+ #custom-scroll::-webkit-scrollbar
+ {
+     width: 12px;
+     background-color: #F5F5F5;
+ }
+ 
+ #custom-scroll::-webkit-scrollbar-thumb
+ {
+     border-radius: 10px;
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+     background-color: #7d7d7d;
+ }
+ 
+ .toppest {
+     z-index: 100;
+ }

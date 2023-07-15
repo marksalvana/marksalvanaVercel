@@ -1,0 +1,23 @@
+{
+  "name": "marksalvanawebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "test",
+    "watch": "npx tailwindcss -i main.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marksalvana/MarkSalvanaWebsite.git"
+  },
+  "author": "Mark Salvana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marksalvana/MarkSalvanaWebsite/issues"
+  },
+  "homepage": "https://github.com/marksalvana/MarkSalvanaWebsite#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
