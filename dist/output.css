@@ -873,6 +873,10 @@ video {
   max-width: 72rem;
 }
 
+.max-w-\[100px\] {
+  max-width: 100px;
+}
+
 .max-w-\[150px\] {
   max-width: 150px;
 }
@@ -887,6 +891,14 @@ video {
 
 .max-w-\[90px\] {
   max-width: 90px;
+}
+
+.max-w-\[200px\] {
+  max-width: 200px;
+}
+
+.max-w-\[170px\] {
+  max-width: 170px;
 }
 
 .flex-auto {
